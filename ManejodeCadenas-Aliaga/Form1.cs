@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,11 +41,12 @@ namespace ManejodeCadenas_Aliaga
 
         private void btnConvertir2_Click(object sender, EventArgs e)
         {
-            DateTime dateTime = dtpFecha.Value.ToUniversalTime();
+            DateTime dateTime = DateTime.Now;
             string B;
             B = dateTime.ToString("HH:mm");
             txtConversion.Text = B;
         }
+
 
         private void btnConvertir3_Click(object sender, EventArgs e)
         {
@@ -54,5 +55,6 @@ namespace ManejodeCadenas_Aliaga
             B = dateTime.ToString("D");
             txtConversion.Text = B;
         }
+
     }
 }

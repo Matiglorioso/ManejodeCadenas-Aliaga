@@ -1,4 +1,4 @@
-﻿namespace ManejodeCadenas_Aliaga
+namespace ManejodeCadenas_Aliaga
 {
     partial class Form1
     {
